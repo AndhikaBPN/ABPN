@@ -1,27 +1,47 @@
 package ujian.ujiankedua;
 
 public class ParseToNum {
-	public int parseIntActual(String a) {
-		Integer hasilInt = Integer.valueOf(a);
+	public String parseIntActual(String a) {
+		Integer hasilInt=0;
+		try {
+			hasilInt = Integer.parseInt(a);
+		} catch (Exception e) {
+			System.out.println(hasilInt+" => INI BUKAN NUMERIC");
+		}
 		System.out.println(hasilInt+" => INI parseIntActual");
-		return hasilInt;
+		return hasilInt.toString();
 	}
 	
-	public int parseIntExpect(String a) {
-		Integer hasilInt = Integer.parseInt(a);
+	public String parseIntExpect(String a) {
+		Integer hasilInt=0;
+		try {
+			hasilInt = Integer.valueOf(a);
+		} catch (Exception e) {
+			System.out.println(hasilInt+" => INI BUKAN NUMERIC");
+		}
 		System.out.println(hasilInt+" => INI parseIntExpect");
-		return hasilInt;
+		return hasilInt.toString();
 	}
 	
-	public double parseDoubleActual(String a) {
-		Double hasilDouble = Double.valueOf(a);
+	public String parseDoubleActual(String a) {
+		Double hasilDouble=0.0;
+		try {
+			hasilDouble = Double.parseDouble(a);
+		} catch (Exception e) {
+			System.out.println(hasilDouble+" => INI BUKAN NUMERIC");
+		}
 		System.out.println(hasilDouble+" => INI parseDoubleActual");
-		return hasilDouble;
+		return hasilDouble.toString();
 	}
 	
-	public double parseDoubleExpect(String a) {
-		Double hasilDouble = Double.parseDouble(a);
+	public String parseDoubleExpect(String a) {
+		Double hasilDouble=0.0;
+		try {
+			hasilDouble = Double.valueOf(a);
+		} catch (Exception e) {
+			System.out.println(hasilDouble+" => INI BUKAN NUMERIC");
+		}
 		System.out.println(hasilDouble+" => INI parseDoubleExpect");
-		return hasilDouble;
+		return hasilDouble.toString();
 	}
 }

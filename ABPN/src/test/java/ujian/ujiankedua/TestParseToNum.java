@@ -1,26 +1,44 @@
 package ujian.ujiankedua;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import static org.testng.Assert.*;
 
 import java.util.Random;
 
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 public class TestParseToNum {
 	ParseToNum ptm = new ParseToNum();
 	Random rand = new Random();
 	
-	@Test
+	@Test(priority = 1)
 	public void TestInt() {
-		String testI = Integer.toString(rand.nextInt(0, 100));
+		System.out.println("====================================================");
+		System.out.println("TES STRING TO INT");
+		String testI = Integer.toString(rand.nextInt());
 		System.out.println("INI TEST STRING TO INT");
-		assertEquals(ptm.parseIntActual(testI), ptm.parseIntExpect(testI));
+		AssertJUnit.assertEquals(ptm.parseIntActual(testI), ptm.parseIntExpect(testI));
+		System.out.println("====================================================");
 	}
 	
-	@Test
+	@Test(priority = 2)
 	public void TestDouble() {
-		String testI = Double.toString(rand.nextDouble(0.0, 100.0));
+		System.out.println("====================================================");
+		System.out.println("TES STRING TO DOUBLE");
+		String testI = Double.toString(rand.nextDouble());
 		System.out.println("INI TEST STRING TO DOUBLE");
-		assertEquals(ptm.parseDoubleActual(testI), ptm.parseDoubleExpect(testI));
+		AssertJUnit.assertEquals(ptm.parseDoubleActual(testI), ptm.parseDoubleExpect(testI));
+		System.out.println("====================================================");
+	}
+	
+	@BeforeClass
+	public void beforeClass() {
+		System.out.println("**TEST STRING TO NUMERIC DIMULAI**");
+	}
+	
+	@AfterClass
+	public void afterClass() {
+		System.out.println("**TEST STRING TO NUMERIC SELESAI** \n");
 	}
 }
