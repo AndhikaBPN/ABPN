@@ -1,4 +1,4 @@
-package latihan;
+package latihan.jumlahchar;
 import java.util.*;
 
 public class Remedial {

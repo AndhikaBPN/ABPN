@@ -1,19 +1,17 @@
-package latihan;
-import java.util.*;
+package latihan.search;
 
-public class TestWeek1 {
-	public static void main(String[] args) {
-		
-		Random rand = new Random();
+public class Searching {
+	public String linearSearch(int[] num) {
 		int[] intArr = {3,8,5,2,1,9,10};
-		int intB = rand.nextInt(0, 11);
+		int intB = 8;
 		boolean isFound = true;
+		String res;
 		
 		for(int i=0;i<intArr.length;i++)
 		{
 			if(intB==intArr[i])
 			{
-				System.out.println("Angka "+intB+" ditemukan , pada index ke "+i);
+				System.out.println("Angka "+intB+" sudah ditemukan , pada index ke "+i);
 				isFound = false;
 				break;
 			}
@@ -23,5 +21,9 @@ public class TestWeek1 {
 		{
 			System.out.println("Angka  "+intB+" yang anda cari tidak ditemukan !! ");			
 		}
+		
+		
+		
+		return "";
 	}
 }

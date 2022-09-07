@@ -1,4 +1,4 @@
-package latihan;
+package latihan.sumchar;
 import java.util.*;
 
 public class FinalChar {

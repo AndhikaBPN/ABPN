@@ -1,4 +1,4 @@
-package latihan;
+package latihan.random;
 import java.util.Random;
 
 public class AngkaRandom {

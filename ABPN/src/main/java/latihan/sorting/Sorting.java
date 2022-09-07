@@ -1,4 +1,4 @@
-package latihan;
+package latihan.sorting;
 
 public class Sorting {
 StringBuilder sBuild = new StringBuilder();
