@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="latihan.testrestassured.PostDataFromExcel">
+      <class name="tugas.selenium.formy.DragAndDrop">
         <methods>
-          <include name="befTest"/>
-          <include name="testPost"/>
+          <include name="testDropDown"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- latihan.testrestassured.PostDataFromExcel -->
+      </class> <!-- tugas.selenium.formy.DragAndDrop -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
