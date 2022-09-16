@@ -33,8 +33,15 @@ public class TestPracticeForm {
 	
 	@Test
 	public void testPracticeForm() throws Exception {
+		String firstName = "Dino";
+		String lastName = "Tiger";
+		String email = "dino@gmail.com";
+		String phoneNumber = "0863592635";
+		String date = "25 Jun 2010";
+		String subject = "eng";
 		String file = "C:\\Users\\NEXSOFT\\Documents\\Flowchart\\Nested-for.png";
-		practiceFormPage.practiceForm("Dino", "Tiger", "dino@gmail.com", "0869356969", "25 Jun 2021", "eng", file, "Jl. Pelangi Surabaya");
+		String currAddress = "Jl. Pelangi Surabaya";
+		practiceFormPage.practiceForm(firstName, lastName, email, phoneNumber, date, subject, file, currAddress);
 		Thread.sleep(2000);
 		assertTrue(practiceFormPage.getClose().contains("Close"));
 	}
