@@ -1,12 +1,12 @@
-package latihan.pagefactoryobject.drivers;
+package tugas.selenium.demoqa.drivers.connection;
 
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.WebDriver;
 
-import latihan.pagefactoryobject.drivers.strategies.DriverStrategy;
-import latihan.pagefactoryobject.drivers.strategies.DriverStrategyImplementer;
-import latihan.pagefactoryobject.util.Constants;
+import tugas.selenium.demoqa.drivers.strategies.DriverStrategy;
+import tugas.selenium.demoqa.drivers.strategies.DriverStrategyImplementer;
+import tugas.selenium.demoqa.util.Constants;
+
 
 public class DriverSingleton {
 	private static DriverSingleton instance = null;

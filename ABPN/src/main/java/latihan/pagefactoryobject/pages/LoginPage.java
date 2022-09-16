@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import latihan.pagefactoryobject.drivers.DriverSingleton;
+import latihan.pagefactoryobject.drivers.connection.DriverSingleton;
 
 public class LoginPage {
 private WebDriver driver;

@@ -6,18 +6,13 @@ import static org.testng.Assert.assertEquals;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 
-import latihan.pagefactoryobject.drivers.DriverSingleton;
+import latihan.pagefactoryobject.drivers.connection.DriverSingleton;
 import latihan.pagefactoryobject.pages.LoginPage;
 import latihan.pagefactoryobject.util.Constants;
 
 public class TestLogin {
 	public static WebDriver driver;
 	private LoginPage loginPage;
-	
-//	@BeforeClass
-//	public void setUp() {
-//		
-//	}
 	
 	@BeforeMethod
 	public void pageObject() {
