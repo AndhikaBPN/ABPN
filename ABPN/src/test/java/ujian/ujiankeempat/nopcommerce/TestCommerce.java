@@ -40,39 +40,39 @@ public class TestCommerce {
 		DriverSingleton.closeObjectInstance();
 	}
 	
-//	@Test(priority = 0)
-//	public void testValidLogin() throws Exception {
-//		loginPage.testLogin("admin@yourstore.com", "admin");
-//		assertTrue(loginPage.getTxtDashboard().contains("Dashboard"));
-//	}
-//	
-//	@Test(priority = 1)
-//	public void testValidLoginUppercase() throws Exception {
-//		loginPage.testLogin("ADMIN@yourstore.com", "admin");
-//		assertTrue(loginPage.getTxtDashboard().contains("Dashboard"));
-//	}
-//	
-//	@Test(priority = 2)
-//	public void testInvalidLogin() throws Exception {
-//		loginPage.testLogin("behemoth@yourstore.com", "admin");
-//		assertTrue(loginPage.getTxtNoFound().contains("No customer account found"));
-//	}
+	@Test(priority = 0)
+	public void testValidLogin() throws Exception {
+		loginPage.testLogin("admin@yourstore.com", "admin");
+		assertTrue(loginPage.getTxtDashboard().contains("Dashboard"));
+	}
 	
-//	@Test(priority = 3)
-//	public void testCustomer() throws Exception {
-//		loginPage.testLogin("admin@yourstore.com", "admin");
-//		Thread.sleep(1000);
-//		customerPage.testCustPage("victoria_victoria@nopCommerce.com", "Victoria", "Terces");
-//		assertTrue(customerPage.getTxtName().contains("victoria"));
-//	}
+	@Test(priority = 1)
+	public void testValidLoginUppercase() throws Exception {
+		loginPage.testLogin("ADMIN@yourstore.com", "admin");
+		assertTrue(loginPage.getTxtDashboard().contains("Dashboard"));
+	}
 	
-//	@Test(priority = 4)
-//	public void testProduct() throws Exception {
-//		loginPage.testLogin("admin@yourstore.com", "admin");
-//		Thread.sleep(1000);
-//		productsPage.testProdPage("Computers >> Software", "Unpublished only", "Simple");
-//		assertTrue(productsPage.getTxtEmpty().contains("No data"));
-//	}
+	@Test(priority = 2)
+	public void testInvalidLogin() throws Exception {
+		loginPage.testLogin("behemoth@yourstore.com", "admin");
+		assertTrue(loginPage.getTxtNoFound().contains("No customer account found"));
+	}
+	
+	@Test(priority = 3)
+	public void testCustomer() throws Exception {
+		loginPage.testLogin("admin@yourstore.com", "admin");
+		Thread.sleep(1000);
+		customerPage.testCustPage("victoria_victoria@nopCommerce.com", "Victoria", "Terces");
+		assertTrue(customerPage.getTxtName().contains("victoria"));
+	}
+	
+	@Test(priority = 4)
+	public void testProduct() throws Exception {
+		loginPage.testLogin("admin@yourstore.com", "admin");
+		Thread.sleep(1000);
+		productsPage.testProdPage("Computers >> Software", "Unpublished only", "Simple");
+		assertTrue(productsPage.getTxtEmpty().contains("No data"));
+	}
 	
 	@Test(priority = 5)
 	public void testPromotions() throws Exception {
