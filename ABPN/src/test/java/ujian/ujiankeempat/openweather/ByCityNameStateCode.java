@@ -18,6 +18,7 @@ public class ByCityNameStateCode {
 	private Object [][] dDriven;
 	private int intColumn;
 	private int intRows;
+	private int count=1;
 	
 	@BeforeTest
 	public void befTest() {
@@ -42,7 +43,14 @@ public class ByCityNameStateCode {
 			System.out.println("Data ke- " + b);
 			for(int i=0; i<intColumn; i++) {
 				dDriven[a][i] = exReader.getCellData(a, i);
-				System.out.println(dDriven[a][i]);
+				if(i==0) {
+					System.out.println("city: " + dDriven[a][i]);
+				}else if(i==1) {
+					System.out.println("state: " + dDriven[a][i]);
+				}else {
+					System.out.println("country: " + dDriven[a][i]);
+				}
+				
 			}
 			System.out.println("=========================");
 			a++;
@@ -53,6 +61,9 @@ public class ByCityNameStateCode {
 	
 	@Test(priority = 0, dataProvider = "DataProviderFirst")
 	public void testGet(String cityName, String state, String country) {
+		System.out.println("=======================================");
+		System.out.println("==========Log Data ke - " + (this.count++) + "==============");
+		System.out.println("=======================================");
 		given().
 			param("q", cityName + "," + state + "," + country).and().
 			param("appid", "f89a2a9e4cc7c67dc8ccc4d38f6bcbfe").

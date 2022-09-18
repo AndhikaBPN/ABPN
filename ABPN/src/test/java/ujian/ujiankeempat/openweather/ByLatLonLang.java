@@ -18,6 +18,7 @@ public class ByLatLonLang {
 	private Object [][] dDriven;
 	private int intColumn;
 	private int intRows;
+	private int count=1;
 	
 	@BeforeTest
 	public void befTest() {
@@ -42,7 +43,14 @@ public class ByLatLonLang {
 			System.out.println("Data ke- " + b);
 			for(int i=0; i<intColumn; i++) {
 				dDriven[a][i] = exReader.getCellData(a, i);
-				System.out.println(dDriven[a][i]);
+				if(i==0) {
+					System.out.println("lat: " + dDriven[a][i]);
+				}else if(i==1){
+					System.out.println("lon: " + dDriven[a][i]);
+				}else {
+					System.out.println("lang: " + dDriven[a][i]);
+				}
+				
 			}
 			System.out.println("=========================");
 			a++;
@@ -53,6 +61,9 @@ public class ByLatLonLang {
 	
 	@Test(priority = 0, dataProvider = "DataProviderFirst")
 	public void testGet(String lat, String lon, String lang) {
+		System.out.println("=======================================");
+		System.out.println("==========Log Data ke - " + (this.count++) + "==============");
+		System.out.println("=======================================");
 		given().
 			param("lat", lat).and().
 			param("lon", lon).and().
