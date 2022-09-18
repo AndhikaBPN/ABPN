@@ -4,7 +4,7 @@ import static io.restassured.RestAssured.*;
 import org.json.simple.JSONObject;
 import org.testng.annotations.BeforeTest;
 
-public class DaraDriven {
+public class DataDriven {
 	JSONObject jObj;
 	
 	@BeforeTest

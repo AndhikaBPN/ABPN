@@ -43,7 +43,7 @@ public class SampleRestAssured {
 			param("first_name", "Mafa").
 			and().param("last_name", "Syafa").
 			and().param("subject_id", 1).
-				get("/users").
+				get("/users	").
 			then().
 				statusCode(200).
 				log().

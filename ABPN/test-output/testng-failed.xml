@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tugas.selenium.demoqa.forms.TestPracticeForm">
+      <class name="ujian.ujiankeempat.nopcommerce.TestCommerce">
         <methods>
-          <include name="closeBrowser"/>
           <include name="pageObject"/>
-          <include name="testPracticeForm"/>
+          <include name="testPromotions"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- tugas.selenium.demoqa.forms.TestPracticeForm -->
+      </class> <!-- ujian.ujiankeempat.nopcommerce.TestCommerce -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

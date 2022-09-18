@@ -20,7 +20,7 @@ public class PostDataFromExcel {
 	private Object [][] dDriven ;
 	private int intColumnNums;
 	private int intRowNums;
-	private JSONObject req ;
+	private JSONObject req;
 	
 	@BeforeTest
 	public void befTest()
@@ -58,7 +58,8 @@ public class PostDataFromExcel {
 	
 	@Test(priority = 0,dataProvider="DataProviderFirst")
 	public void testPost(String fName, String lName, String subId, String phoneNumber,String address, String country)
-	{		
+	{	
+		
 		req.put("first_name",fName);
 		req.put("last_name",lName);
 		req.put("subject_id",Integer.parseInt(subId));

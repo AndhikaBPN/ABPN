@@ -10,7 +10,7 @@ import org.openqa.selenium.By;
 
 import tugas.selenium.demoqa.drivers.connection.DriverSingleton;
 import tugas.selenium.demoqa.pages.amazon.AmazonPage;
-import tugas.selenium.demoqa.pages.elements.TextBoxPage;
+//import tugas.selenium.demoqa.pages.elements.TextBoxPage;
 import tugas.selenium.demoqa.util.Constants;
 
 public class TestAmazon {
