@@ -24,7 +24,7 @@ public class ByCityName {
 	public void befTest() {
 		jObj = new JSONObject();
 		baseURI = "https://api.openweathermap.org";
-		String excelPath = "C:\\Users\\NEXSOFT\\Documents\\JAVA\\Bootcamp\\JavaProject\\ABPN\\data\\ABPN_UJIAN_KEEMPAT.xlsx";
+		String excelPath = ".\\data\\ABPN_UJIAN_KEEMPAT.xlsx";
 		String sheetName = "ByCityName";
 		exReader = new ExcelReader(excelPath, sheetName);
 		intColumn = exReader.getColCount();

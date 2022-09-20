@@ -40,6 +40,10 @@ private WebDriver driver;
 	public void login(String username, String password) {
 		this.username.sendKeys(username);
 		this.password.sendKeys(password);
+		
+	}
+	
+	public void clickBtnLogin() {
 		btnLogin.click();
 	}
 	

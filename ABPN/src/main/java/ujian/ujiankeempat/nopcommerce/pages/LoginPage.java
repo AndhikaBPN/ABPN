@@ -42,7 +42,10 @@ public class LoginPage {
 		this.email.sendKeys(email);
 		Thread.sleep(500);
 		this.password.sendKeys(password);
-		Thread.sleep(1000);
+		Thread.sleep(500);
+	}
+	
+	public void clickBtnLogin() {
 		btnLogin.click();
 	}
 	

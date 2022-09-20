@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ujian.ujiankeempat.nopcommerce.TestCommerce">
+      <class name="latihan.cucumber.outline.OutlineRunner">
         <methods>
-          <include name="pageObject"/>
-          <include name="testPromotions"/>
-          <include name="closeBrowser"/>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="5"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- ujian.ujiankeempat.nopcommerce.TestCommerce -->
+      </class> <!-- latihan.cucumber.outline.OutlineRunner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

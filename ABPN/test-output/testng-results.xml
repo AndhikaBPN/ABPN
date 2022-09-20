@@ -2,84 +2,126 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-18T10:05:18 WIB" name="Default suite" finished-at="2022-09-18T10:06:50 WIB" duration-ms="92741">
+  <suite started-at="2022-09-20T09:42:35 WIB" name="Default suite" finished-at="2022-09-20T09:43:08 WIB" duration-ms="33335">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:latihan.cucumber.outline.OutlineRunner@45099dd3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-09-18T10:05:18 WIB" name="Default test" finished-at="2022-09-18T10:06:50 WIB" duration-ms="92741">
-      <class name="ujian.ujiankeempat.nopcommerce.TestCommerce">
-        <test-method is-config="true" signature="pageObject()[pri:0, instance:ujian.ujiankeempat.nopcommerce.TestCommerce@31fa1761]" started-at="2022-09-18T10:05:18 WIB" name="pageObject" finished-at="2022-09-18T10:05:23 WIB" duration-ms="4971" status="PASS">
+    <test started-at="2022-09-20T09:42:35 WIB" name="Default test" finished-at="2022-09-20T09:43:08 WIB" duration-ms="33335">
+      <class name="latihan.cucumber.outline.OutlineRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:latihan.cucumber.outline.OutlineRunner@45099dd3]" started-at="2022-09-20T09:42:35 WIB" name="setUpClass" finished-at="2022-09-20T09:42:36 WIB" duration-ms="1247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@63dda940]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pageObject -->
-        <test-method signature="testValidLogin()[pri:0, instance:ujian.ujiankeempat.nopcommerce.TestCommerce@31fa1761]" started-at="2022-09-18T10:05:23 WIB" name="testValidLogin" finished-at="2022-09-18T10:05:28 WIB" duration-ms="5387" status="PASS">
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:latihan.cucumber.outline.OutlineRunner@45099dd3]" started-at="2022-09-20T09:42:36 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-20T09:42:47 WIB" duration-ms="10973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User invalid login Outline"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Invalid Username Password"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ujian.ujiankeempat.nopcommerce.TestCommerce@31fa1761]" started-at="2022-09-18T10:05:28 WIB" name="closeBrowser" finished-at="2022-09-18T10:05:30 WIB" duration-ms="2200" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:latihan.cucumber.outline.OutlineRunner@45099dd3]" started-at="2022-09-20T09:42:47 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-20T09:42:51 WIB" duration-ms="3515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User invalid login Outline"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Invalid Username Password"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="pageObject()[pri:0, instance:ujian.ujiankeempat.nopcommerce.TestCommerce@31fa1761]" started-at="2022-09-18T10:05:30 WIB" name="pageObject" finished-at="2022-09-18T10:05:34 WIB" duration-ms="3967" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:latihan.cucumber.outline.OutlineRunner@45099dd3]" started-at="2022-09-20T09:42:51 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-20T09:42:55 WIB" duration-ms="3734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User invalid login Outline"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Invalid Username Password"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pageObject -->
-        <test-method signature="testValidLoginUppercase()[pri:1, instance:ujian.ujiankeempat.nopcommerce.TestCommerce@31fa1761]" started-at="2022-09-18T10:05:34 WIB" name="testValidLoginUppercase" finished-at="2022-09-18T10:05:40 WIB" duration-ms="5387" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:latihan.cucumber.outline.OutlineRunner@45099dd3]" started-at="2022-09-20T09:42:55 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-20T09:42:58 WIB" duration-ms="3586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User invalid login Outline"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Invalid Username Password"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testValidLoginUppercase -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ujian.ujiankeempat.nopcommerce.TestCommerce@31fa1761]" started-at="2022-09-18T10:05:40 WIB" name="closeBrowser" finished-at="2022-09-18T10:05:42 WIB" duration-ms="2152" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:latihan.cucumber.outline.OutlineRunner@45099dd3]" started-at="2022-09-20T09:42:58 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-20T09:43:02 WIB" duration-ms="3778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User invalid login Outline"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Invalid Username Password"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="pageObject()[pri:0, instance:ujian.ujiankeempat.nopcommerce.TestCommerce@31fa1761]" started-at="2022-09-18T10:05:42 WIB" name="pageObject" finished-at="2022-09-18T10:05:45 WIB" duration-ms="2968" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:latihan.cucumber.outline.OutlineRunner@45099dd3]" started-at="2022-09-20T09:43:02 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-20T09:43:06 WIB" duration-ms="3738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User invalid login Outline"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Invalid Username Password"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pageObject -->
-        <test-method signature="testInvalidLogin()[pri:2, instance:ujian.ujiankeempat.nopcommerce.TestCommerce@31fa1761]" started-at="2022-09-18T10:05:45 WIB" name="testInvalidLogin" finished-at="2022-09-18T10:05:47 WIB" duration-ms="2672" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:latihan.cucumber.outline.OutlineRunner@45099dd3]" started-at="2022-09-20T09:43:06 WIB" name="tearDownClass" finished-at="2022-09-20T09:43:08 WIB" duration-ms="2669" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testInvalidLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ujian.ujiankeempat.nopcommerce.TestCommerce@31fa1761]" started-at="2022-09-18T10:05:47 WIB" name="closeBrowser" finished-at="2022-09-18T10:05:49 WIB" duration-ms="2178" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="pageObject()[pri:0, instance:ujian.ujiankeempat.nopcommerce.TestCommerce@31fa1761]" started-at="2022-09-18T10:05:49 WIB" name="pageObject" finished-at="2022-09-18T10:05:53 WIB" duration-ms="3889" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageObject -->
-        <test-method signature="testCustomer()[pri:3, instance:ujian.ujiankeempat.nopcommerce.TestCommerce@31fa1761]" started-at="2022-09-18T10:05:53 WIB" name="testCustomer" finished-at="2022-09-18T10:06:05 WIB" duration-ms="11172" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCustomer -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ujian.ujiankeempat.nopcommerce.TestCommerce@31fa1761]" started-at="2022-09-18T10:06:05 WIB" name="closeBrowser" finished-at="2022-09-18T10:06:08 WIB" duration-ms="3133" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="pageObject()[pri:0, instance:ujian.ujiankeempat.nopcommerce.TestCommerce@31fa1761]" started-at="2022-09-18T10:06:08 WIB" name="pageObject" finished-at="2022-09-18T10:06:11 WIB" duration-ms="2931" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageObject -->
-        <test-method signature="testProduct()[pri:4, instance:ujian.ujiankeempat.nopcommerce.TestCommerce@31fa1761]" started-at="2022-09-18T10:06:11 WIB" name="testProduct" finished-at="2022-09-18T10:06:26 WIB" duration-ms="15175" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testProduct -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ujian.ujiankeempat.nopcommerce.TestCommerce@31fa1761]" started-at="2022-09-18T10:06:26 WIB" name="closeBrowser" finished-at="2022-09-18T10:06:28 WIB" duration-ms="2186" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="pageObject()[pri:0, instance:ujian.ujiankeempat.nopcommerce.TestCommerce@31fa1761]" started-at="2022-09-18T10:06:28 WIB" name="pageObject" finished-at="2022-09-18T10:06:32 WIB" duration-ms="3950" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageObject -->
-        <test-method signature="testPromotions()[pri:5, instance:ujian.ujiankeempat.nopcommerce.TestCommerce@31fa1761]" started-at="2022-09-18T10:06:32 WIB" name="testPromotions" finished-at="2022-09-18T10:06:48 WIB" duration-ms="16237" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPromotions -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ujian.ujiankeempat.nopcommerce.TestCommerce@31fa1761]" started-at="2022-09-18T10:06:48 WIB" name="closeBrowser" finished-at="2022-09-18T10:06:50 WIB" duration-ms="2139" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- ujian.ujiankeempat.nopcommerce.TestCommerce -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- latihan.cucumber.outline.OutlineRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
