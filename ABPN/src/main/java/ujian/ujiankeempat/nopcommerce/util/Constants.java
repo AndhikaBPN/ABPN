@@ -17,6 +17,9 @@ public class Constants {
 	public static final String CHROME = "Chrome";
 	public static final String FIREFOX = "Firefox";
 	public static final String URL = "https://admin-demo.nopcommerce.com";
+	public static final String URLDEMO = "https://shop.demoqa.com/";
+	public static final String URLLOGIN = "https://shop.demoqa.com/my-account/";
+	public static final String GLOB_PARAM_DELAY = "y";
 	
 	public static String getScreenshot(WebDriver driver, String screenshotName) throws IOException {
 		String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
@@ -27,5 +30,17 @@ public class Constants {
 		File finalDestination = new File(destination);
 		FileUtils.copyFile(source, finalDestination);
 		return destination;
+	}
+	
+	public static void delay(int detik, String delays) {
+		if(delays.equals("y"))
+		{
+			try {
+				Thread.sleep(1000*detik);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}		
 	}
 }

@@ -1,127 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-20T09:42:35 WIB" name="Default suite" finished-at="2022-09-20T09:43:08 WIB" duration-ms="33335">
+  <suite started-at="2022-09-24T19:34:27 WIB" name="Default suite" finished-at="2022-09-24T19:35:29 WIB" duration-ms="62262">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:latihan.cucumber.outline.OutlineRunner@45099dd3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:ujian.ujiankelima.cucumber.OutlineRunner@45099dd3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-09-20T09:42:35 WIB" name="Default test" finished-at="2022-09-20T09:43:08 WIB" duration-ms="33335">
-      <class name="latihan.cucumber.outline.OutlineRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:latihan.cucumber.outline.OutlineRunner@45099dd3]" started-at="2022-09-20T09:42:35 WIB" name="setUpClass" finished-at="2022-09-20T09:42:36 WIB" duration-ms="1247" status="PASS">
+    <test started-at="2022-09-24T19:34:27 WIB" name="Default test" finished-at="2022-09-24T19:35:29 WIB" duration-ms="62262">
+      <class name="ujian.ujiankelima.cucumber.OutlineRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:ujian.ujiankelima.cucumber.OutlineRunner@45099dd3]" started-at="2022-09-24T19:34:27 WIB" name="setUpClass" finished-at="2022-09-24T19:34:28 WIB" duration-ms="512" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@63dda940]]>
+                <![CDATA[org.testng.TestRunner@59f45950]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:latihan.cucumber.outline.OutlineRunner@45099dd3]" started-at="2022-09-20T09:42:36 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-20T09:42:47 WIB" duration-ms="10973" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:ujian.ujiankelima.cucumber.OutlineRunner@45099dd3]" started-at="2022-09-24T19:34:28 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-24T19:34:38 WIB" duration-ms="10219" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["User invalid login Outline"]]>
+                <![CDATA["Login user"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login Invalid Username Password"]]>
+                <![CDATA["shop demo qa login page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:latihan.cucumber.outline.OutlineRunner@45099dd3]" started-at="2022-09-20T09:42:47 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-20T09:42:51 WIB" duration-ms="3515" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:ujian.ujiankelima.cucumber.OutlineRunner@45099dd3]" started-at="2022-09-24T19:34:38 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-24T19:34:44 WIB" duration-ms="5828" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["User invalid login Outline"]]>
+                <![CDATA["Login user"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login Invalid Username Password"]]>
+                <![CDATA["shop demo qa login page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:latihan.cucumber.outline.OutlineRunner@45099dd3]" started-at="2022-09-20T09:42:51 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-20T09:42:55 WIB" duration-ms="3734" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:ujian.ujiankelima.cucumber.OutlineRunner@45099dd3]" started-at="2022-09-24T19:34:44 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-24T19:34:50 WIB" duration-ms="5754" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["User invalid login Outline"]]>
+                <![CDATA["Login user"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login Invalid Username Password"]]>
+                <![CDATA["shop demo qa login page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:latihan.cucumber.outline.OutlineRunner@45099dd3]" started-at="2022-09-20T09:42:55 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-20T09:42:58 WIB" duration-ms="3586" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:ujian.ujiankelima.cucumber.OutlineRunner@45099dd3]" started-at="2022-09-24T19:34:50 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-24T19:34:57 WIB" duration-ms="7531" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["User invalid login Outline"]]>
+                <![CDATA["Login user"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login Invalid Username Password"]]>
+                <![CDATA["shop demo qa login page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:latihan.cucumber.outline.OutlineRunner@45099dd3]" started-at="2022-09-20T09:42:58 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-20T09:43:02 WIB" duration-ms="3778" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:ujian.ujiankelima.cucumber.OutlineRunner@45099dd3]" started-at="2022-09-24T19:34:57 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-24T19:35:03 WIB" duration-ms="5773" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["User invalid login Outline"]]>
+                <![CDATA["Login user"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login Invalid Username Password"]]>
+                <![CDATA["shop demo qa login page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:latihan.cucumber.outline.OutlineRunner@45099dd3]" started-at="2022-09-20T09:43:02 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-20T09:43:06 WIB" duration-ms="3738" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:ujian.ujiankelima.cucumber.OutlineRunner@45099dd3]" started-at="2022-09-24T19:35:03 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-24T19:35:11 WIB" duration-ms="8271" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["User invalid login Outline"]]>
+                <![CDATA["Register user"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login Invalid Username Password"]]>
+                <![CDATA["Register user"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:latihan.cucumber.outline.OutlineRunner@45099dd3]" started-at="2022-09-20T09:43:06 WIB" name="tearDownClass" finished-at="2022-09-20T09:43:08 WIB" duration-ms="2669" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:ujian.ujiankelima.cucumber.OutlineRunner@45099dd3]" started-at="2022-09-24T19:35:11 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-24T19:35:19 WIB" duration-ms="8111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register user"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:ujian.ujiankelima.cucumber.OutlineRunner@45099dd3]" started-at="2022-09-24T19:35:19 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-24T19:35:27 WIB" duration-ms="7892" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register user"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:ujian.ujiankelima.cucumber.OutlineRunner@45099dd3]" started-at="2022-09-24T19:35:27 WIB" name="tearDownClass" finished-at="2022-09-24T19:35:29 WIB" duration-ms="2334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- latihan.cucumber.outline.OutlineRunner -->
+      </class> <!-- ujian.ujiankelima.cucumber.OutlineRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
