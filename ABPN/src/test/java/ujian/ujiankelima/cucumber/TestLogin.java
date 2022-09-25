@@ -46,9 +46,9 @@ public class TestLogin {
 	@Then("invalid validation")
 	public void invalid_validation() {
 //	    invalidLogin.getTxtErr();
-		invalidLogin.getTxtLimit();
-		assertTrue(invalidLogin.getTxtLimit().contains("access"));
-//	    assertTrue(invalidLogin.getTxtErr().contains("ERROR"));
+	    assertTrue(invalidLogin.getTxtErr().contains("ERROR"));
+//		invalidLogin.getTxtLimit();
+//		assertTrue(invalidLogin.getTxtLimit().contains("access"));
 	    extentTest.log(LogStatus.PASS, "invalid validation");
 	}
 }

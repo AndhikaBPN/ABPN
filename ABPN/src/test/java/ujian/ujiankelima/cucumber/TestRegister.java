@@ -52,10 +52,11 @@ public class TestRegister {
 
 	@Then("valid validation")
 	public void valid_validation() {
-		regPage.getTxtLimit();
 //	    regPage.getTxtErr();
 //	    assertTrue(regPage.getTxtErr().contains("ERROR"));
-	    assertTrue(regPage.getTxtLimit().contains("access"));
+//		regPage.getTxtLimit();
+//	    assertTrue(regPage.getTxtLimit().contains("access"));
+	    assertTrue(regPage.getTxtRegistered().contains("already registered"));
 	    extentTest.log(LogStatus.PASS, "valid validation");
 	}
 }

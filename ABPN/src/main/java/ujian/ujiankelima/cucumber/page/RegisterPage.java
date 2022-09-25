@@ -42,6 +42,9 @@ public class RegisterPage {
 	@FindBy(xpath = "//h1[contains(text(),'Your access to this site has been temporarily limi')]")
 	private WebElement txtLimit;
 	
+	@FindBy(xpath = "//div[@id='primary']//li[1]")
+	private WebElement txtRegistered;
+	
 //	Page Object
 	public void testRegister(String username, String email, String password) {
 		Constants.delay(1, strDelay);
@@ -58,6 +61,8 @@ public class RegisterPage {
 	
 	public void clickReg() {
 		btnReg.click();
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView();", txtRegistered);
 	}
 	
 	public String getTxtErr() {
@@ -66,5 +71,10 @@ public class RegisterPage {
 	
 	public String getTxtLimit() {
 		return txtLimit.getText();
+	}
+	
+	public String getTxtRegistered() {
+		
+		return txtRegistered.getText();
 	}
 }
