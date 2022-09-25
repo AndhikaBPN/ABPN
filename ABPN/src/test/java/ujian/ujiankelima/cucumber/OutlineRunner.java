@@ -3,6 +3,8 @@ package ujian.ujiankelima.cucumber;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
+// untuk generate data ada di src/main/java/latihan/cucumber/util/ExcelGenerateOutline.java
+
 @CucumberOptions(
 features = {"src/test/resources/features/ujiankelima/001Login.feature",
 			"src/test/resources/features/ujiankelima/002Register.feature"},

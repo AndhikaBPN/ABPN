@@ -7,8 +7,9 @@ public class ExcelGenerateOutline {
 
 	public static void main(String[] args) {
 		StringBuilder sBuild = new StringBuilder();
-		String excelPath = ".\\data\\Outline-data_driven.xlsx";
-		String sheetName = "Sheet1";
+//		UNTUK GENERATE DATA DI UJIAN KELIMA TERDAPAT 2 SHEET -> Login DAN Register, GANTI NAMA SHEETNYA JIKA INGIN MENCOBA
+		String excelPath = ".\\data\\Outline_ujian_kelima.xlsx";
+		String sheetName = "Register";
 		ExcelReader excelReader = new ExcelReader(excelPath, sheetName);
 
 		Iterator<Row> rX = excelReader.getIter();
